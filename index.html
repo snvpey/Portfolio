@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-brand">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#infos">Informations</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#veille-content">Veille</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+        <!-- Section Informations Personnelles -->
+        <section id="infos" class="section">
+            <div class="container">
+                <h2>Informations Personnelles</h2>
+                <div class="info-content">
+                    <div class="profile-image">
+                        <img src="images/Hummel Alexis.jpg" alt="Photo de profil">
+                    </div>
+                    <div class="profile-info">
+                        <h3>Alexis Hummel</h3>
+                        <p class="title">Étudiant MIASHS</p>
+                        <div class="bio">
+                            <p>Passionné par l'IA et le sport, je suis un Étudiant en 2ème Année à la Sorbonne.</p>
+                            <h4>Mes competences</h4>
+                            <ul>
+                                <li>Français (C2)</li>
+                                <li>Anglais (C1)</li>
+                                <li>Allemand (C1)</li>
+                                <li>Grec couramment</li>
+                            </ul>
+                        </div>
+                        <div class="skills">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Java</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <section id="projets" class="section">
+            <div class="container">
+                <h2>Mes Projets</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="images/mazepython.jpg" alt="Projet 1">
+                        <h3>Labyrinthe Python</h3>
+                        <p>Création d'un labyrinthe sur Python à l'aide des bibliothèques curses et random, permettant de générer des parcours uniques et interactifs.</p>
+                        <div class="project-links">
+                            <a href="documents/Maze.txt" class="btn" download="Maze.txt">Voir le projet</a>
+                            <a href="https://github.com/snvpey/Projects/blob/main/Maze.txt" class="btn">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/devweb.jpg" alt="Portfolio">
+                        <h3>Site Portfolio</h3>
+                        <p>Conception et développement d'un site portfolio personnel en HTML, CSS et JavaScript, avec une attention particulière au design responsive et à l'expérience utilisateur. Le site inclut des animations interactives et une gestion de formulaire avec validation.</p>
+                        <div class="project-links">
+                            <a href="documents/Portfolio.zip" class="btn" download="Portfolio.zip">Voir le projet</a>
+                            <a href="https://github.com/snvpey/Portfolio" class="btn">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/java.jpeg" alt="Data Analyse">
+                        <h3>Projet de Data Analyse</h3>
+                        <p>Projet codé exclusivement en Java pour analyser et trier les données d’un site de basket. Ce projet utilise des structures de données optimisées et permet d'extraire des insights clés pour la stratégie sportive.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn">Voir le projet</a>
+                            <a href="https://github.com/snvpey/DataAnalyse" class="btn">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Section Veille Technologique -->
+        <section id="veille-content">
+            <h2>Veille Technologique : L’IA dans le football</h2>
+            
+            <h3>1. Contexte</h3>
+            <p>Ces dernières années, l’importance des <b>indicateurs de performance</b> dans le football (P.I.) n’a cessé de croître. En cherchant à imiter les succès récents de clubs comme 
+                <a href="https://www.brentfordfc.com/" target="_blank">Brentford</a> et 
+                <a href="https://www.fcm.dk/" target="_blank">Midtjylland</a>, les équipes de football s’efforcent de maximiser l’utilisation des <b>données</b> pour identifier les failles de leur effectif et agir plus intelligemment sur le marché des transferts, où circulent plusieurs milliards d’euros chaque année. C’est dans ce contexte qu’émerge l’<b>intelligence artificielle (IA)</b> comme outil autodidacte pour collecter, traiter et analyser ces données.
+            </p>
+            
+            <h3>2. Les tendances actuelles de cette technologie</h3>
+            <p>Au cours des cinq dernières années, l’<b>intelligence artificielle</b> a transformé la <b>collecte</b>, le <b>calcul</b> et l’<b>interprétation des statistiques</b> dans le football. Parmi les avancées majeures, les indicateurs <b>Expected Goals (xG)</b> et <b>Expected Assists (xA)</b> se sont imposés comme des outils essentiels pour évaluer les performances des joueuses et joueurs, ainsi que des équipes.</p>
+            <p>Les <b>Expected Goals (xG)</b> mesurent la probabilité qu’un tir aboutisse à un but, en tenant compte de plusieurs facteurs : l’angle du tir, la distance par rapport au but, la position de la gardienne ou du gardien, et le type de passe ayant mené à l’action. Contrairement aux statistiques classiques comme le nombre de tirs cadrés, cet indicateur fournit une meilleure estimation de la qualité des tirs et révèle si une joueuse ou un joueur marque plus ou moins que prévu, nous donnant un indicateur sur son <b>efficacité face au but</b>.</p>
+            <p>De leur côté, les <b>Expected Assists (xA)</b> évaluent les passes qui conduisent à des <b>occasions de but</b> en estimant la probabilité que ces actions soient converties. Ces mesures vont au-delà des passes décisives pour refléter l’impact réel d’une joueuse ou d’un joueur sur la création d’occasions. Grâce à ces algorithmes, des outils comme 
+                <a href="https://statsbomb.com/" target="_blank">StatsBomb</a> ou 
+                Opta permettent d’identifier des talents sous-évalués. Par exemple, un·e joueur·se qui marque peu mais génère un xA élevé peut être extrêmement important·e, une contribution souvent invisible dans les statistiques traditionnelles.
+            </p>
+            <p>Aujourd’hui, l’<b>intelligence artificielle</b> dépasse la simple collecte et analyse des performances : elle transforme également la manière dont les <b>données</b> sont utilisées dans le football. Les avancées incluent notamment la <b>vision par ordinateur</b> et les modèles de <b>deep learning</b>.</p>
+            <p>La <b>vision par ordinateur</b> analyse automatiquement les vidéos pour suivre les mouvements des joueuses et joueurs, calculer leur <b>positionnement</b>, et détecter des <b>tactiques</b>. Ces technologies aident les staffs techniques à anticiper les tendances adverses et à ajuster leur système. Des plateformes comme 
+                <a href="https://www.secondspectrum.com/" target="_blank">Second Spectrum</a> vont plus loin, générant des visualisations 3D en temps réel pour une meilleure compréhension du jeu.
+            </p>
+            <p>En parallèle, les <b>algorithmes prédictifs</b> gagnent en précision, modélisant des situations futures comme la probabilité qu’un·e joueur·se se blesse ou qu’une équipe adopte un comportement tactique spécifique.</p>
+            
+            <h3>3. Les futurs développements</h3>
+            <p>Ces nouvelles méthodes permettront aux recruteur·euse·s d’analyser des <b>profils</b> et d’évaluer des <b>talents</b> comme jamais auparavant. Des joueuses et joueurs autrefois ignoré·e·s pourront enfin être repéré·e·s, et les clubs pourront s’assurer avant tout transfert que ces profils s’intègrent parfaitement dans leur système tactique, réduisant ainsi les risques. De plus, ces talents restent souvent sous-évalué·e·s car discrets avec les statistiques classiques, comme le nombre de buts marqués. Cette approche ouvre des opportunités aux clubs « Money Ball », qui reposent sur des recrutements à coûts réduits.</p>
+            <p>Grâce à des méthodes de collecte de données simplifiées, utilisant notamment la <b>détection vidéo</b> et le <b>machine learning</b>, de nombreux championnats jusqu’alors ignorés faute de moyens pour enregistrer les statistiques pourront être mis en lumière. Le potentiel est particulièrement prometteur pour les compétitions et joueuses/joueurs africain·e·s, souvent négligé·e·s à cause de l’absence de données.</p>
+            <p>Les <b>assistants IA</b> transforment l’analyse tactique, aidant les entraîneur·euse·s à simuler des stratégies adaptées aux forces de leur équipe et aux faiblesses adverses. Grâce à l’<b>apprentissage automatique</b>, ils analysent des heures de vidéos, identifient des schémas et proposent des ajustements précis. Par exemple, ils peuvent proposer des systèmes de tactiques optimisant les points forts individuels.</p>
+            <p>En parallèle, l’<b>IA</b> aide à gérer la charge physique des joueuses et joueurs, anticipant fatigue et blessures grâce à des données en temps réel. Ces innovations rendent les préparations plus dynamiques, améliorant à la fois les performances et la longévité des athlètes.</p>
+            
+            <h3>4. Les défis à surmonter</h3>
+            <p>Malgré ses avancées, l’<b>IA</b> dans le football fait face à plusieurs limites. Par exemple, la détection de la balle devient imprécise lorsqu’elle sort du cadre ou que les angles de caméra sont obstrués. De plus, la qualité des données disponibles dans les championnats moins médiatisés reste un défi majeur, impactant la précision des analyses.</p>
+            <p>Les modèles peuvent aussi produire des biais ou des données mal interprétées sans expertise humaine pour les contextualiser. Enfin, le coût élevé de ces technologies limite leur adoption, creusant les écarts entre clubs riches et modestes. Ces défis nécessitent des solutions pour garantir fiabilité et accessibilité.</p>
+            
+            <h3>Sources</h3>
+            <ul>
+                <li><a href="https://www.nytimes.com/athletic/3521723/2022/08/30/touches-football-data-analysis/" target="_blank">The Athletic</a></li>
+                <li><a href="https://www.uefa.com/development/performance-analysis/technical-reports/" target="_blank">UEFA</a></li>
+                <li><a href="https://onefootball.com/de/news/data-metrics-explained-expected-goals-xg-34247889" target="_blank">OneFootball</a></li>
+                <li><a href="https://www.brentfordfc.com/" target="_blank">Brentford</a></li>
+                <li><a href="https://www.fcm.dk/" target="_blank">Midtjylland</a></li>
+                <li><a href="https://www.sofascore.com/" target="_blank">SofaScore</a></li>
+            </ul>
+        </section>
+        
+
+        <!-- Section Contact -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Mes Coordonnées</h3>
+                        <div class="contact-details">
+                            <p><strong>Email:</strong> alexis.hummel.pro@gmail.com</p>
+                            <p><strong>Téléphone:</strong> +33 7 44 84 95 10</p>
+                            <p><strong>Localisation:</strong> Paris, France</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/ahummel808" class="social-link">LinkedIn</a>
+                            <a href="https://github.com/snvpey" class="social-link">GitHub</a>
+                            <a href="document/cv-alexis-hummel.pdf" class="social-link">Download CV</a>
+                        </div>
+                    </div>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nom</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="captcha">Captcha : Résolvez cette opération</label>
+                            <span id="captcha-operation"></span>
+                            <input type="text" id="captcha" name="captcha" required>
+                            <button type="button" id="regenerate-captcha" class="btn">Régénérer</button>
+                        </div>
+                        <div id="message-sent" style="display:none;">Votre message a été envoyé avec succès !</div>
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
